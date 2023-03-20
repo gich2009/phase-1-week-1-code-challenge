@@ -1,6 +1,6 @@
 # Speed Detector (Toy Problem)
 
-This program is designed to run on a web browser and takes the speed of a car as input. It determines whether the driver is speeding, and if the speed is less than 70 km/h, it displays "Ok" on the browser screen. Otherwise, it calculates the number of demerit points the driver should receive based on how much they exceeded the speed limit.
+This program is designed to run on a web browser and takes the speed of a car as input. It determines whether the driver is speeding, and if the speed is less than 70 km/h, it displays "Ok" on the browser screen. Otherwise, it calculates the number of demerit points the driver should receive based on how much they exceeded the speed limit. If a driver exceeds a threshold of 12 demerit points, their license is suspended.
 
 ## Getting Started
 
