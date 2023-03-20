@@ -1,5 +1,6 @@
 # Student Grade Generator (Toy Problem)
 
+## Description
 This is a program that prompts the user to input student marks between 0 and 100 and outputs the corresponding grade. The grading scale is as follows:
 
 - A > 79
@@ -8,10 +9,9 @@ This is a program that prompts the user to input student marks between 0 and 100
 - D > 40 to 49
 - E > less than 40
 
-## Installation
+## Setup
 To run this program, you need to have a web browser installed on your machine.
 
-## Usage
 1. Open the `index.html` file in your web browser.
 2. When prompted, enter the student marks between 0 and 100.
 3. The program will output the corresponding grade on the webpage.
@@ -22,5 +22,5 @@ To run this program, you need to have a web browser installed on your machine.
 ## Example
 If the user enters 85, the program will output `Student grade: A.`
 
-## License
-This program is licensed under the MIT License. See the `LICENSE` file for details.
+## Author & License
+This program is written by Amos Wanene and licensed under the MIT License. See the `LICENSE` file for details.

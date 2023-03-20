@@ -1,0 +1,19 @@
+p {
+  font-style: arial;
+  font-size: x-large;
+}
+
+.deduction {
+  color: #ff0000;
+}
+
+#grossSalary{
+  color: #0000ff;
+}
+
+#netSalary {
+  color: #008000;
+}
+
+
+
