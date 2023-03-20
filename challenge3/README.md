@@ -10,6 +10,7 @@ To run this program on a web browser, follow these steps:
 2. Open the project directory and navigate to the `index.html` file.
 3. Open the `index.html` file in your preferred web browser.
 
+`NB`: You can inspect the webpage to see the values logged on the console.
 
 ## Resources
 This program uses the following resources for tax and deduction calculations:

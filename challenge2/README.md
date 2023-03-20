@@ -7,6 +7,8 @@ This program is designed to run on a web browser and takes the speed of a car as
 
 To use this program, simply open the index.html file in a web browser. This will display the user interface for the program. Enter the speed of the car in the input field and click the "Check Speed" button. The program will then display the appropriate message on the screen.
 
+`NB`: You can inspect the webpage to see the speed logged on the console.
+
 ## Usage
 
 This program can be used to check the speed of a car and determine if the driver is speeding. It can be used by anyone who needs to monitor their speed while driving.
