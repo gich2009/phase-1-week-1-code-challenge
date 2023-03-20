@@ -14,12 +14,11 @@ This program can be used to check the speed of a car and determine if the driver
 
 Here are some examples of the output you can expect from this program:
 
-          | Speed(km/h) | Result               |
-          | ----------- | ---------------------|  
-|Example 1| 60          | Ok                   |
-|Example 2| 72          | 1                    |
-|Example 3| 95          | License Suspended    |
-
+| Speed | Result            |
+|-------|------------------|
+| 60 km/h | Ok              |
+| 72 km/h | Points: 1       |
+| 95 km/h | License suspended |
 
 ## License
 
