@@ -1,13 +1,22 @@
 // const prompt = require("prompt");
 // Prompt the user to enter the student marks
 let marks = prompt("Enter the student marks (between 0 and 100): ");
+  //check whether the prompt function has returned an empty string.
+  const empty = (marks === "");
 
-  // Convert the input to a number
-  marks = Number(marks);
+  const isNumber = (!isNaN(marks));
 
-  // Check if the input is a valid number between 0 and 100
-  if (isNaN(marks) || marks < 0 || marks > 100) {
+  // Convert the input to a number if the input is not empty AND if the input is a number.
+  if (!empty && isNumber){
+    marks = Number(marks);
+  }
+  
+
+  //If the input is an invalid number (!(0 - 100)) OR if the input is empty OR if the input is not of type number, invoke an allert.
+  if (!(marks >= 0 && marks <= 100) || empty || !isNumber) {
     alert("Invalid input. Marks range between 0 and 100.");
+
+    //Otherwise, define a variable grade to store the grade based on the marks.
   } else {
     // Determine the grade based on the given ranges
       let grade;
